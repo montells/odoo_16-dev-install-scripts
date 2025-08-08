@@ -6,7 +6,7 @@
 # This part installs odoo in a virtual environment
 ################################################################################
 
-OE_HOME="/home/$(logname)/odoo-dev/17.0.enterprise"
+OE_HOME="/home/$(logname)/odoo-dev/16.0.enterprise"
 OE_HOME_EXT="$OE_HOME/odoo"
 OE_HOME_VENV="$OE_HOME/.venv"
 
@@ -16,7 +16,7 @@ OE_CONFIG="/$OE_HOME/odoo.conf"
 OE_PORT="8069"
 # Choose the Odoo version which you want to install. For example: 16.0, 15.0, 14.0 or saas-22. When using 'master' the master version will be installed.
 # IMPORTANT! This script contains extra libraries that are specifically needed for Odoo 17.0
-OE_VERSION="17.0"
+OE_VERSION="16.0"
 # Set this to True if you want to install the Odoo enterprise version!
 IS_ENTERPRISE="True"
 
