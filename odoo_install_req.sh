@@ -31,7 +31,6 @@ sudo add-apt-repository universe
 sudo add-apt-repository "deb http://mirrors.kernel.org/ubuntu/ noble main"
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install libpq-dev -y
 
 #--------------------------------------------------
 # Install Dependencies
