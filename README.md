@@ -78,7 +78,7 @@ You can use the following as your `launch.json` file:
       "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/odoo/odoo-bin",
-      "args": ["-c", "${workspaceFolder}/odoo.conf"],
+      "args": ["-c", "${workspaceFolder}/odoo.conf", "-i", "base"],
       "gevent": false,
       "envFile": "${workspaceFolder}/debug.env",
       "console": "integratedTerminal",
