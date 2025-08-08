@@ -10,7 +10,7 @@ The first script is to install machine wide requirements and the others are to i
 ### 1. Install Machine Wide Requirements
 ##### Download Requirement Installation Script
 ```
-wget https://raw.githubusercontent.com/yonitjio/odoo-dev-install-scripts/main/odoo_install_req.sh
+wget https://raw.githubusercontent.com/montells/odoo-dev-install-scripts/main/odoo_install_req.sh
 ```
 ##### Make the script executable
 ```
@@ -24,7 +24,7 @@ sudo ./odoo_install_req.sh
 #### Community edition
 ##### Download Odoo Installation Script
 ```
-wget https://raw.githubusercontent.com/yonitjio/odoo-dev-install-scripts/main/odoo_install_dev_community.sh
+wget https://raw.githubusercontent.com/montells/odoo-dev-install-scripts/main/odoo_install_dev_community.sh
 ```
 ##### Make the script executable
 ```
@@ -37,7 +37,7 @@ chmod +x odoo_install_dev_community.sh
 #### Enterprise edition
 ##### Download Odoo Installation Script
 ```
-wget https://raw.githubusercontent.com/yonitjio/odoo-dev-install-scripts/main/odoo_install_dev_enterprise.sh
+wget https://raw.githubusercontent.com/montells/odoo-dev-install-scripts/main/odoo_install_dev_enterprise.sh
 ```
 ##### Make the script executable
 ```
