@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: odoo-pg
+    ports:
+      - "54315:5432"  # Host 54315, container 5432 (as Postgres expect)
+    environment:
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo
+      POSTGRES_DB: odoo16
+    volumes:
+      - odoo_pgdata:/var/lib/postgresql/data
+    deploy:
+      restart_policy:
+        condition: none
+
+volumes:
+  odoo_pgdata:
